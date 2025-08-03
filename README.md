@@ -39,8 +39,3 @@ best = load("models/model_iter250_lr0_1.joblib")  # adjust name to the real best
 # assume `x_new_poly` is prepared:
 pred = best.predict(x_new_poly)
 ```
-
-## Suggested commit message
-```
-feat: add regression pipeline with poly features, grid search, visualization, and model persistence
-```
